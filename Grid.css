@@ -1,0 +1,28 @@
+.container{
+    height: 500px;
+    display: grid;
+    border: 2px solid #0070f3   ;
+    padding: 6px;
+    border-radius: 10px;
+    /* grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-flow: column; */
+    grid-template-columns:1fr 1fr 2fr 1fr;
+    align-content: center;
+    text-align: center;
+    
+    
+    
+    
+}
+.items{
+    background-color: aliceblue;
+    padding: 20px;
+    color: #0070f3;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #34d844;
+    border-radius: 10px;
+    margin: 10px;
+   
+
+}
